@@ -181,9 +181,9 @@
     <EmbeddedResource Include="Resources\metapadtxt" />
     <None Include="Resources\COGSiebelLogaliser-helptxt" />
     <None Include="Resources\COGSiebelLogaliserWithLicense-helptxt" />
+    <None Include="Resources\metapadexe" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\metapad.exe" />
     <Content Include="Resources\COGSiebelLogalyser.ico" />
   </ItemGroup>
   <ItemGroup>

@@ -4,7 +4,7 @@ Imports System.Linq
 
 Public Class frmMain
     ' to-do: find a better editor
-    Private Const VIEWER_APP As String = "metapad.exe"
+    Private Const VIEWER_APP As String = "metapad"
     Private clsInst As clsProcessFile
     Private swWatch As Stopwatch
     Private procViewer As Process
@@ -314,7 +314,7 @@ Public Class frmMain
         Try
             procViewer = New Process
             Dim sFileName As String = txtFile.Text
-            Dim sViewerExe As String = Application.StartupPath & "\" & VIEWER_APP
+            Dim sViewerExe As String = Application.StartupPath & "\" & VIEWER_APP & ".exe"
             If Not System.IO.File.Exists(sViewerExe) Then CreateViewerExe(sViewerExe)
             psiViewer = New ProcessStartInfo
             psiViewer.FileName = sViewerExe
