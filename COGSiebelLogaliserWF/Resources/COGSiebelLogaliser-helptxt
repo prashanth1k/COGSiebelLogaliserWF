@@ -1,0 +1,111 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+				SiebelLogaliser
+			
+		A simple analyser for Siebel application spool
+					and log files.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+
+Content
+=======
+	- Purpose
+	- Usage
+	- Changes
+	- Miscellany
+	- Contact
+	- License and Other Fun Stuff
+
+
+Purpose
+-------
+	SiebelLogaliser is a utility to quickly analyse Siebel logs. 
+	The program can read and parse spool files, and log files generated 
+	by Siebel client or Siebel server components. It extracts useful 
+	information about SQL/Siebel performance and errors in a table 
+	format. If you don't know much about Siebel - Oracle's flagship
+	CRM product, this program does not make sense.
+
+	Log files provide crucial information to debug errors and 
+	performance issues for any Siebel developer. However as in case
+	of any log files, Siebel log files needs some 'getting used to'
+	and needs ability to parse huge chunks of text. This utlility 
+	is an attempt to do the parsing for the user and display the 
+	observations in a format that is (hopefully) better readable.
+	The program reads spool files (generated through the /s
+	argument) or log files, and display the content of interest in 
+	a tabular structure. 
+	
+
+Usage
+-----
+	SiebelLogaliser is distributed in a binary version. Double 
+	click the exe file to start the program, select the Siebel spool 
+	file or log file of interest and watch the program process. There 
+	is really nothing more to it. The program is tested on 
+	Windows 7 64 bit and Windows 8 64 bit operating systems.
+
+	Go to http://crmcog.com/siebel-logaliser-log-analyser for up to date information.
+
+Changes
+-------
+	v0.1
+		~ Initial version
+
+
+Miscellany
+----------
+	This program is written by a Siebel developer and may have tens 
+	of improvisations that everyone else in the world considers 
+	'must-have'. 
+	>> I have used the Express Edition of Microsoft (c) 
+	Visual Basic .NET. 
+	>> Excellent and light-weight editor 'metapad' (details below) is 
+	used to display the file content.
+
+	This tool is not endorsed in any way by Oracle.
+
+
+Contact
+-------
+	This tool is distributed as a productivity improvement tool for 
+	Siebel developers everywhere. 
+	SiebelLogaliser is created by Prashanth Krishnamurthy.
+	
+	Following people have contributed their time and resources for 
+	the development:
+	<< future contacts >>
+	
+	For queries or for support, contact:
+	Prashanth Krishnamurthy [prashanth@crmcog.com]
+	
+	
+	
+
+License and Other Fun Stuff
+----------------------------
+	'SiebelLogaliser' has been released for use by Siebel developers.
+	You would have not paid any money to buy the product, or use it.
+	The tool is free of restrictions in order to be used towards its purpose.
+	
+	For other types of usage, get in touch with with the group/people 
+	mentioned in 'Contact' section of this document.
+
+	You use this tool at your own risk. This program is distributed 
+	in the hope that it will be useful, but WITHOUT ANY WARRANTY; 
+	without even the implied warranty of MERCHANTABILITY or 
+	FITNESS FOR A PARTICULAR PURPOSE. 
+	
+
+	Metapad
+	--------
+	The software uses "metapad" editor to display file content. 
+	Metapad.exe	and the associated license file is created when not 
+	present in the program root folder. The editor is packaged for 
+	portability reasons alone. 
+	Metapad is (C) Copyright Alexander Davidson, and is released as 
+	freeware. 
+
+<end of file>
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

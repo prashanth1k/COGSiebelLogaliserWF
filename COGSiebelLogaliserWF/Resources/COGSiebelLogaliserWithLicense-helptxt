@@ -1,0 +1,127 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+				SiebelLogaliser
+			
+		A simple analyser for Siebel application spool
+					and log files.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+
+Content
+=======
+	- Purpose
+	- Usage
+	- Changes
+	- Miscellany
+	- Contact
+	- License and Other Fun Stuff
+
+
+Purpose
+-------
+	SiebelLogaliser is a utility to quickly analyse Siebel logs. 
+	The program can read and parse spool files, and log files generated 
+	by Siebel client or Siebel server components. It extracts useful 
+	information about SQL/Siebel performance and errors in a table 
+	format. If you don't know much about Siebel - Oracle's flagship
+	CRM product, this program does not make sense.
+
+	Log files provide crucial information to debug errors and 
+	performance issues for any Siebel developer. However as in case
+	of any log files, Siebel log files needs some 'getting used to'
+	and needs ability to parse huge chunks of text. This utlility 
+	is an attempt to do the parsing for the user and display the 
+	observations in a format that is (hopefully) better readable.
+	The program reads spool files (generated through the /s
+	argument) or log files, and display the content of interest in 
+	a tabular structure. 
+
+	
+Usage
+-----
+	SiebelLogaliser is distributed in a binary version. Double 
+	click the exe file to start the program, select the Siebel spool 
+	file or log file of interest and watch the program process. There 
+	is really nothing more to it. The program is tested on 
+	Windows 7 64 bit and Windows 8 64 bit operating systems.
+
+	Go to http://crmcog.com/siebellogaliser-analyser-of-log-files/
+	for up to date information.
+
+
+Changes
+-------
+	v0.1
+		~ Initial version
+
+
+Miscellany
+----------
+	This program is written by a Siebel developer and may have tens 
+	of improvisations that everyone else in the world considers 
+	'must-have'. 
+	>> It is created using the excellent Microsoft (c) Visual Basic .NET
+	platform. 
+	>> It uses the light-weight editor 'metapad' (details below) to
+	display the file content.
+
+
+Contact
+-------
+	This tool is distributed as a productivity improvement tool for 
+	Siebel developers everywhere. It is not endorsed by Siebel or 
+	Oracle in anyway.
+
+	SiebelLogaliser was originally created by Prashanth Krishnamurthy.
+		
+	
+	Following people have contributed their time and resources for 
+	the development:
+	<< future contacts >>
+
+	
+	Feel free to ask questions or get support at 
+	http://crmcog.com/forums/forum/siebel/tools/.
+
+
+License and Other Fun Stuff
+----------------------------
+	'SiebelLogaliser' is released under MIT license. 
+
+	Copyright (C) 2012-15 Prashanth Krishnamurthy
+	Permission is hereby granted, free of charge, to any person 
+	obtaining a copy of this software and associated documentation 
+	files (the "Software"), to deal in the Software without 
+	restriction, including without limitation the rights to use, copy,
+	modify, merge, publish, distribute, sublicense, and/or sell copies
+	of the Software, and to permit persons to whom the Software is 
+	furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be 
+	included in all copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+	EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES 
+	OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND 
+	NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT 
+	HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, 
+	WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+	DEALINGS IN THE SOFTWARE.
+
+	The software code is not released as of date. However, if you 
+	have the technical expertise, feel free to reverse engineer and
+	use	the code as you deem fit. 
+
+	Metapad
+	--------
+	The software uses "metapad" editor to display file content. 
+	Metapad.exe	and the associated license file is created when not 
+	present in the program root folder. The editor is packaged for 
+	portability reasons alone. 
+	Metapad is Copyright (C) Alexander Davidson, and is released as 
+	freeware. 
+
+<end of file>
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
